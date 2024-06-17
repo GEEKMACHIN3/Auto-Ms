@@ -6,7 +6,8 @@
 <a href="#"><img title="Version" src="https://img.shields.io/badge/Version-1.3-green.svg?style=flat-square"></a>
 <a href="#"><img title="Maintainence" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>
 </p>
-<p align="center"><a href="https://YouTube.com/"><img title="GEEK MACHINE src="https://github.com/GEEKMACHIN3/Auto-Ms/assets/84702653/3f063f82-53cd-4463-8e92-e7468324c744"></a>
+<p align="center">
+  <a href="#"><img title="GEEK MACHINE src="https://github.com/GEEKMACHIN3/Auto-Ms/assets/84702653/3f063f82-53cd-4463-8e92-e7468324c744"></a>
 </p>
 
 </p>
