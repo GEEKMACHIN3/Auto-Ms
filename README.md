@@ -7,7 +7,8 @@
 <a href="#"><img title="Maintainence" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>
 </p>
 <p align="center">
-  <a href="#"><img title="GEEK MACHINE src="https://github.com/GEEKMACHIN3/Auto-Ms/assets/84702653/3f063f82-53cd-4463-8e92-e7468324c744"></a>
+<a href="https://bit.ly/3jLqF1P"><img title="M-wiz" src="https://github.com/GEEKMACHIN3/Auto-Ms/assets/84702653/3f063f82-53cd-4463-8e92-e7468324c744"></a>
+</p
 </p>
 
 </p>
