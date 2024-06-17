@@ -6,8 +6,6 @@
 <a href="#"><img title="Version" src="https://img.shields.io/badge/Version-1.3-green.svg?style=flat-square"></a>
 <a href="#"><img title="Maintainence" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>
 </p>
-<p align="center">
-<a href="#"><img title="M-wiz" src="https://github.com/GEEKMACHIN3/Auto-Ms/assets/84702653/ae91f8a1-2eeb-42ed-a334-023e22fb6273"></a>
 </p>
 <p align="center">
 <a href="https://github.com/GEEKMACHIN3"><img title="Github" src="https://img.shields.io/badge/GEEKMACHIN3-brightgreen?style=for-the-badge&logo=github"></a>
