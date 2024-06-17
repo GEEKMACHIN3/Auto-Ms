@@ -6,6 +6,9 @@
 <a href="#"><img title="Version" src="https://img.shields.io/badge/Version-1.3-green.svg?style=flat-square"></a>
 <a href="#"><img title="Maintainence" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>
 </p>
+<p align="center"><a href="https://YouTube.com/"><img title="GEEK MACHINE src="https://user-images.githubusercontent.com/49580304/117566254-31801e00-b0d3-11eb-860d-5601b1adccb8.jpg"></a>
+</p>
+
 </p>
 <p align="center">
 <a href="https://github.com/GEEKMACHIN3"><img title="Github" src="https://img.shields.io/badge/GEEKMACHIN3-brightgreen?style=for-the-badge&logo=github"></a>
@@ -20,9 +23,6 @@
 ## ABOUT TOOL :
 
 The Metasploit Manager script is a user-friendly tool designed to simplify the management of Metasploit on Termux. With this script, you can easily install, uninstall, update Metasploit, or run the msfconsole command without the need for complex commands or manual configurations. This script ensures that your Metasploit installation is always up-to-date and ready for use.
-
-<p align="center"><a href="https://rebrand.ly/noobhacktube"><img title="Noob Hackers" src="https://user-images.githubusercontent.com/49580304/117566254-31801e00-b0d3-11eb-860d-5601b1adccb8.jpg"></a>
-</p>
 
 ## AVAILABLE ON :
 
