@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#THIS CODE CODE BY BH4V & GEEK MACHINE
 # Colors for fancy output
 RED='\033[0;31m'
 GREEN='\033[0;32m'
@@ -18,49 +18,56 @@ check_success() {
 # Function to display the menu
 display_menu() {
     clear
+ echo -e "${GREEN}
+
+             █████╗ ██╗   ██╗████████╗ ██████╗       ███╗   ███╗███████╗
+            ██╔══██╗██║   ██║╚══██╔══╝██╔═══██╗      ████╗ ████║██╔════╝
+            ███████║██║   ██║   ██║   ██║   ██║█████╗██╔████╔██║███████╗
+            ██╔══██║██║   ██║   ██║   ██║   ██║╚════╝██║╚██╔╝██║╚════██║
+            ██║  ██║╚██████╔╝   ██║   ╚██████╔╝      ██║ ╚═╝ ██║███████║
+            ╚═╝  ╚═╝ ╚═════╝    ╚═╝    ╚═════╝       ╚═╝     ╚═╝╚══════╝
+                                                                  v 1.1${NC}"
+echo " "
+echo -e "${RED}                                ▶ Coded by${GREEN} BH4V${RED} ◀${NC}"
+echo -e "${RED}                                 ⫸ ${YELLOW}GEEK MACHINE$red ⫷${NC}"
+echo -e "${RED}                             ⫸${GREEN} github.com/GEEKMACHIN3 ${RED}⫷${NC}"
 echo " "
 echo " "
-echo -e "$red
-                       ███╗   ███╗      ██╗    ██╗██╗███████╗
-                       ████╗ ████║      ██║    ██║██║╚══███╔╝
-                       ██╔████╔██║█████╗██║ █╗ ██║██║  ███╔╝ 
-                       ██║╚██╔╝██║╚════╝██║███╗██║██║ ███╔╝  
-                       ██║ ╚═╝ ██║      ╚███╔███╔╝██║███████╗
-                       ╚═╝     ╚═╝       ╚══╝╚══╝ ╚═╝╚══════╝ 
-                                                   v 1.3$rset"
-echo " "                                                          
-echo -e "$red                                ▶ Coded by$grn N17RO$red ◀$rset"
-echo -e "$red                                ⫸$ylo  Noob Hackers $red ⫷$rset"
-echo -e "$red                          ⫸$grn  github.com/noob-hackers $red⫷$r{NC}"
-echo " "
-echo " "
-echo -e "${RED}                       >>>  [ click ENTER to continue ] <<<${NC}"
+echo -e "${RED}                       ----  [ click ENTER to continue ] ---- ${NC}"
 read nitrom
 echo " "
 echo " "
-echo -e "$cyan                  》m-wiz is a official tool made for metasploit《{NC}"
+echo -e "${RED}                          [NOTE:- NEED INTERNET CONNECTION]${NC}"
+
 echo " "
-echo -e "$red                          [NOTE:- NEED INTERNET CONNECTION]$rset"
-echo " "
-    echo -e "${BLUE}===========================================================${NC}"
-    echo -e "${BLUE}         Metasploit Manager            ${NC}"
-    echo -e "${BLUE}===========================================================${NC}"
+
+
+    echo -e "${YELLOW}=============================================================================================${NC}"
+    echo -e "${RED}
+
+                        ╔╦╗┌─┐┌┬┐┌─┐┌─┐┌─┐┬  ┌─┐┬┌┬┐  ╔╦╗┌─┐┌┐┌┌─┐┌─┐┌─┐┬─┐
+                        ║║║├┤  │ ├─┤└─┐├─┘│  │ ││ │   ║║║├─┤│││├─┤│ ┬├┤ ├┬┘
+                        ╩ ╩└─┘ ┴ ┴ ┴└─┘┴  ┴─┘└─┘┴ ┴   ╩ ╩┴ ┴┘└┘┴ ┴└─┘└─┘┴└─
+
+          ${NC}"
+    echo -e "${YELLOW}=============================================================================================${NC}"
     echo " "
-    echo -e "$             {YELLOW}1) Install Metasploit${NC}"
+    echo -e "                 ${YELLOW}1) Install Metasploit${NC}"
+    echo "  "
+    echo -e "                 ${YELLOW}2) Uninstall Metasploit${NC}"
     echo " "
-    echo -e "$             {YELLOW}2) Uninstall Metasploit${NC}"
-    echo " "
-    echo -e "$             {YELLOW}3) Update Metasploit${NC}"
-    echo " "
-    echo -e "$             {YELLOW}4) Run Metasploit (msfconsole)${NC}"
-    echo " "
-    echo -e "$             {YELLOW}5) Exit${NC}"
-    echo " "
-    echo -e "${BLUE}===========================================================${NC}"
+    echo -e "                 ${YELLOW}3) Update Metasploit${NC}"
+    echo "  "
+    echo -e "                 ${YELLOW}4) Run Metasploit (msfconsole)${NC}"
+    echo "  "
+    echo -e "                 ${YELLOW}5) Exit${NC}"
+    echo "  "
+    echo -e "${YELLOW}==============================================================================================${NC}"
 }
 
 # Function to install Metasploit
 install_metasploit() {
+    echo -e "${YELLOW}Updating and upgrading Termux packages...${NC}"
     echo -e "${YELLOW}Updating and upgrading Termux packages...${NC}"
     pkg update -y && pkg upgrade -y
     check_success "Failed to update and upgrade Termux packages."
@@ -98,7 +105,6 @@ install_metasploit() {
     echo -e "${GREEN}  You can start Metasploit by running 'msfconsole'.${NC}"
     echo -e "${GREEN}======================================${NC}"
 }
-
 # Function to uninstall Metasploit
 uninstall_metasploit() {
     echo -e "${YELLOW}Uninstalling Metasploit...${NC}"
@@ -108,7 +114,7 @@ uninstall_metasploit() {
     echo -e "${GREEN}Metasploit has been uninstalled.${NC}"
 }
 
-# Function to update Metasploit
+/# Function to update Metasploit
 update_metasploit() {
     echo -e "${YELLOW}Updating Metasploit...${NC}"
     cd $HOME/metasploit-framework
@@ -133,7 +139,7 @@ while true; do
 
     case $choice in
         1)
-            install_metasploit
+        install_metasploit
             ;;
         2)
             uninstall_metasploit
