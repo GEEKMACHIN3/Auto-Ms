@@ -50,7 +50,7 @@ The Metasploit Manager script is a user-friendly tool designed to simplify the m
 
 * `apt-get upgrade -y`
 * `pkg install -y git`
-* `git clone https://github.com/yourusername/metasploit-manager-termux.git`
+* `git clone https://github.com/GEEKMACHIN3/Auto-Ms`
 * `cd Auto-Ms`
 * `chmod +x Auto-Ms`
 * `bash Auto-ms.sh`
